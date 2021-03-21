@@ -59,6 +59,7 @@ if [ "$flag" == "false" ]; then
     echo "Aonly"
     exit 1
 fi
+read -p "Press [Enter]..."
 
 # Setup source system partition
 systempath=$sourcepath
