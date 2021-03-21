@@ -136,6 +136,7 @@ if [ $MOUNTED == false ]; then
     if [ $CLEAN == true ]; then
         rm -rf "$ZIP_NAME"
     fi
+    read -p "Press [Enter]..."
     MOUNT "$PROJECT_DIR/working"
     URL="$PROJECT_DIR/working"
     
